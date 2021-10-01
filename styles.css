@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+/* Header */
+header {
+  width: 90%;
+  margin: 0 auto;
+  padding: 48px 0;
+}
+header h1 {
+  font-family: "Inconsolata";
+  font-size: 1.5rem;
+}
+
+/* Hero */
+
+.hero {
+  width: 90%;
+  margin: 76px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+
+.scarecrow-img {
+  width: 50%;
+}
+.scarecrow-img img {
+  width: 90%;
+}
+.hero-content {
+  width: 45%;
+  font-family: "Space Mono";
+}
+
+.hero-content h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 2;
+  color: #333333;
+}
+.hero-content p {
+  font-size: 1.5rem;
+  width: 70%;
+  line-height: 1.5;
+  margin-top: 32px;
+  margin-bottom: 56px;
+  color: #333333;
+}
+.homepage-btn {
+  font-family: "Space Mono";
+  padding: 32px 40px;
+  background-color: #333333;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  width: 40%;
+}
+
+/* Footer */
+footer p {
+  color: #bdbdbd;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 12px;
+  }
+}
